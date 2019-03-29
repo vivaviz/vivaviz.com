@@ -6,17 +6,24 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+
   ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
   }
+
   .left {
     grid-column: 1 / span 5;
     float: right;
     justify-content: flex-end;
   }
+
+  .right {
+    grid-column: 7 / span 9;
+  }
+
   .logo {
     -ms-grid-column-span: 1;
     -ms-grid-column: 6;
