@@ -1,0 +1,19 @@
+.Projects {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  .Project {
+    .image {
+      width: 500px;
+      height: 300px;
+      background-color: #ddd;
+    }
+
+    margin: auto;
+    margin-bottom: 40px;
+  }
+}

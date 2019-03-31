@@ -155,7 +155,7 @@ class BannerChart extends Component {
       .attr('d', line)
       .call(transition);
 
-    const linesMerge = linesBinding.merge(linesEnter);
+    // const linesMerge = linesBinding.merge(linesEnter);
   }
 
   /**

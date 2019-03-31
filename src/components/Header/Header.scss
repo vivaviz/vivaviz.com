@@ -1,5 +1,5 @@
 .Header {
-  font-size: 2em;
+  font-size: 2rem;
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(5, 1fr) 100px repeat(5, 1fr);
@@ -12,6 +12,23 @@
     padding: 0;
     margin: 0;
     display: flex;
+  }
+
+  .btn-link,
+  .btn-link:active {
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 0;
+    border-bottom: 2px solid transparent;
+  }
+
+  .btn-link:hover {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #777;
+    border-bottom: 2px solid #777;
+    border-radius: 0;
   }
 
   .left {
